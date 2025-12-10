@@ -13,23 +13,3 @@ spec:
     ports:
     - containerPort: 80
 
-# two different containers in one pod
-
-# apiVersion: v1
-# kind: Pod
-# metadata:
-#   name: web-db
-#   namespace: roboshop
-#   labels:
-#     app: web-db
-#     project: roboshop
-# spec:
-#   containers:
-#   - name: nginx
-#     image: nginx
-#     ports:
-#     - containerPort: 80
-#   - name: mongodb
-#     image: mongo
-#     ports:
-#     - containerPort: 27017
