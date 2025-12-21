@@ -13,7 +13,7 @@ spec:
   csi:
     driver: ebs.csi.aws.com
     fsType: ext4
-    volumeHandle: #volume-dicsk id should be paste
+    volumeHandle: vol-052fe15917229e1c3
 
     
 ---
